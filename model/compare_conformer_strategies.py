@@ -196,16 +196,14 @@ def main():
     
     # 测试策略列表 - 从轻量级到重量级
     strategies_to_test = [
-        ('first', 1),           # 只使用第一个构象 (最快)
-        ('random', 1),          # 随机选择一个构象 (很快)
-        # ('cluster', 3),         # 聚类选择3个构象 (中等)
-        # ('best_diverse', 3),    # 多样性选择3个构象 (中等)
-        # ('cluster', 5),         # 聚类选择5个构象 (较慢)
-        # ('best_diverse', 5),    # 多样性选择5个构象 (较慢)
+        ('first', 1),           # 只使用第一个构象
+        ('random', 1),          # 随机选择一个构象 
+        ('cluster', 3),         # 聚类选择3个构象 
+        ('best_diverse', 3),    # 多样性选择3个构象 
+        ('cluster', 5),         # 聚类选择5个构象 
+        ('best_diverse', 5),    # 多样性选择5个构象 
     ]
-    
-    # 如果计算资源允许，也可以测试使用所有构象 (最慢)
-    # strategies_to_test.append(('all', 11))  # 暂时注释掉，太费时间
+
     
     print(f"将测试 {len(strategies_to_test)} 种构象策略...")
     
