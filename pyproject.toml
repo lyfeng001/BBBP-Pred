@@ -1,0 +1,16 @@
+[project]
+name = "bbbp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "huggingface-hub>=0.32.4",
+    "lmdb>=1.6.2",
+    "numpy<=2.0.0",
+    "rdkit-pypi==2022.9.3",
+    "torch>=2.7.1",
+    "torchaudio>=2.7.1",
+    "torchvision>=0.22.1",
+    "unimol-tools>=0.1.4.post1",
+]
