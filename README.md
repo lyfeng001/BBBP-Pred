@@ -8,6 +8,8 @@ First, you need to install [uv](https://docs.astral.sh/uv/).
 Once uv is installed, install the project dependencies:
 
 ```bash
+uv venv --python 3.11
+source .venv/bin/activate
 uv sync
 ```
 
